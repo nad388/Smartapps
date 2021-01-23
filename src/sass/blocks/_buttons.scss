@@ -1,0 +1,18 @@
+.btn {
+    width: 240px;
+    height: 60px;
+    border: 3px solid rgba(255, 255, 255, 0.5);
+    background: none;
+    border-radius: 50px;
+    color: #ffffff;
+    font-size: 21px;
+    font-weight: 700;
+    &_gray {
+        color: #636c6c;
+        border: 3px solid rgba(99, 108, 108, 0.5);
+        margin-top: 55px;
+    }
+    &:hover {
+        color: $first-color;
+    }
+}

@@ -1,0 +1,75 @@
+.reviews {
+    position: relative;
+    min-height: 560px;
+    img {
+        width: 100px;
+        height: 100px;
+    }
+    ul {
+        margin: 0;
+        padding: 0;
+    }
+    #slides1 {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        list-style-type: none;
+        z-index: 1;
+        text-align: center;
+        
+        .slide1 {
+            position: absolute;
+            top: 176px;
+            left: 100px;
+            right: 0;
+            transform: translateX(-50px);
+            opacity: 0;
+            z-index: 1;
+            transition: opacity 1s;
+            p {
+                width: 100%;
+            }
+        }
+        .showing {
+            opacity: 1;
+            z-index: 2;
+        }   
+    }
+    .slider-dots1 {
+        position: absolute;
+        text-align: center;
+        margin-bottom: 30px;
+        top: 470px;
+        left: 550px;    
+    }
+      .slider-dots1_item{
+          cursor: pointer;
+          height: 8px;
+          width: 8px;
+          margin: 0 4px;
+          border-radius: 50%;
+          display: inline-block;
+          transition: background-color 0.6s ease;
+          background-color: #8c9494;
+      }
+      .active,
+      .slider-dots1_item:hover {
+          background-color: $first-color;
+      }
+    .review {
+        padding-top: 47px;
+        color: #8c9494;
+        font-family: "Droid Serif";
+        font-size: 24px;
+        font-style: italic;
+        line-height: 24px;
+    }
+    .user_name {
+        padding-top: 27px;
+        color: $first-color;
+        font-size: 24px;
+        font-weight: 400;
+    }
+}

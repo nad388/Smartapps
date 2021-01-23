@@ -1,0 +1,68 @@
+
+@font-face {
+    font-family: 'Raleway';
+    font-display: swap;
+    src: local('Raleway-Light'),
+        url('../fonts/Raleway-Light.ttf') format('ttf'),
+        url('../fonts/Raleway-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    font-display: swap;
+    src: local('Raleway-Bold'),
+        url('../fonts/Raleway-Bold.ttf') format('ttf'),
+        url('../fonts/Raleway-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    font-display: swap;
+    src: local('Raleway-Regular'),
+        url('../fonts/Raleway-Regular.ttf') format('ttf'),
+        url('../fonts/Raleway-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Droid Serif';
+    font-display: swap;
+    src: local('droid-serif-italic_[allfont.ru]'),
+        url('../fonts/droid-serif-italic_[allfont.ru].ttf') format('ttf');
+    //font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Rg';
+    font-display: swap;
+    src: local('ProximaNova-Regular'),
+        url('../fonts/ProximaNova-Regular.ttf') format('ttf'),
+        url('../fonts/ProximaNova-Regular.woff') format('woff');
+    //font-weight: 400;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Proxima Nova Th';
+    font-display: swap;
+    src: local('ProximaNova-Extrabld'),
+        url('../fonts/ProximaNova-Extrabld.ttf') format('ttf'),
+        url('../fonts/ProximaNova-Extrabld.woff') format('woff');
+    //font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Socialico";
+    src: url("../fonts/Socialico.eot?") format("eot"), url("../fonts//Socialico.woff") format("woff"), url("../fonts//Socialico.ttf") format("truetype"), url("../fonts//Socialico.svg#Socialico") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+

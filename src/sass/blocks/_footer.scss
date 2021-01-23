@@ -1,0 +1,39 @@
+.footer {
+    min-height: 307px;
+    background-color: #2d312f;
+    text-align: center;
+    padding: 75px 0 49px 0;
+    &__say {
+        color: #8c9494;
+        font-size: 24px;
+        font-weight: 400;
+    }
+    &__social a {
+        color: #5d6461;
+        font-family: Socialico;
+        font-size: 60px;
+        font-weight: 400;
+        text-decoration: none;
+    }
+    .menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 70px;
+        flex-wrap: wrap;
+        &__items {
+            color: #8c9494;
+            font-size: 14px;
+            font-weight: 400;
+            margin: 0 10px;
+        }   
+    }
+    ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        a {
+            color: #747a7a;
+        }
+    }
+}

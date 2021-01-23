@@ -1,0 +1,48 @@
+@import 'libs/bootstrap-reboot.min';
+@import 'libs/font';
+@import 'libs/animate';
+@import 'base/variables';
+
+
+
+
+* {
+    font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
+}
+
+
+.container {
+    position: relative;
+    max-width: 1140px;
+    margin: 0 auto;
+    a {
+        text-decoration: none;
+    }
+    a:hover {
+        color: $first-color;
+    }
+}
+
+
+@import 'blocks/header';
+@import 'blocks/promo';
+@import 'blocks/title';
+@import 'blocks/subtitle';
+@import 'blocks/buttons';
+@import 'blocks/heading';
+@import 'blocks/product';
+@import 'blocks/screen';
+@import 'blocks/features';
+@import 'blocks/reviews';
+@import 'blocks/subscribe';
+@import 'blocks/footer';
+@import 'blocks/pageup';
+
+
+@import 'base/media';
+
+
+
+
+

@@ -1,0 +1,82 @@
+.header {
+    position: relative;
+    min-height: 109px;
+    padding: 42px 0 41px 0;
+    &__main {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    &__menu {
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        .menu {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            &__items {
+                padding-left: 20px;
+                color: #747a7a;
+                font-size: 14px;
+                font-weight: 400;
+            }
+            &_link {
+                color: $main-color;
+                font-size: 15px;
+                font-weight: 300;
+            } 
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            a {
+                color: #747a7a;
+            }
+        }
+        .main__logo {
+            color: $main-color;
+            font-size: 26px;
+            font-weight: 700;
+            padding-right: 34px;
+        }
+        .hamburger {
+            display: none;
+            position: fixed !important;
+            span {
+                width: 12px;
+                height: 2px;
+                color: $main-color;
+
+            }
+        }
+    }
+    &__contacts {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        a {
+            color: $main-color;
+        } 
+    }
+
+    &__phone{
+        margin-right: 39px;
+        font-size: 18px;
+        font-weight: 400;
+        a {
+            color: $main-color;
+        }
+        .phone {
+            margin-right: 10px;
+        }
+    }
+    &__email {
+        .envelope {
+            margin-right: 10px;
+        }
+    }
+}

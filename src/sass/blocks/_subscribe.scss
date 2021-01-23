@@ -1,0 +1,48 @@
+.subscribe {
+    position: relative;
+    text-align: center;
+    min-height: 361px;
+    background-color: #f3f5f5;
+    &__sent {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    img {
+        margin: 94px 23px 0 0;
+    }
+    &__form {
+        margin-top: 60px;
+        input {
+            width: 770px;
+            height: 60px;
+            border: 2px solid #bbc3c2;
+            background-color: #ffffff;
+            border-radius: 50px;
+            color: #8c9494;
+            font-size: 14px;
+            font-weight: 400;
+            padding: 0 0 0 23px;
+        }
+    }
+    .button_submit {
+        position: absolute;
+        width: 170px;
+        height: 60px;
+        background-color: $first-color;
+        border-radius: 50px;
+        border: none;
+        right: 185px;
+        color: #ffffff;
+        font-family: "Proxima Nova Rg";
+        font-size: 20px;
+        font-weight: 700;
+        text-transform: uppercase;
+        &:hover {
+            color: $first-color;
+            background-color: #fff;
+            border: 1px solid $first-color;
+        }
+    }
+}
